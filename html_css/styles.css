@@ -1,0 +1,129 @@
+.price-card {
+  display: flex;
+  flex-direction: column;
+}
+.price-card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 33px 0px 33px 0px;
+}
+.price-card__title {
+  margin: 0;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  color: #fff;
+}
+.price-card__undertitle {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.price-card__main-block {
+  display: flex;
+  flex-direction: column;
+}
+.price-card__price-block-green {
+  display: flex;
+  width: 100%;
+  height: 105px;
+  background-color: #5bb189;
+}
+.price-card__price-block-blue {
+  display: flex;
+  width: 100%;
+  height: 105px;
+  background-color: #3a6ba5;
+}
+.price-card__price-block-orange {
+  display: flex;
+  width: 100%;
+  height: 105px;
+  background-color: #ec632a;
+}
+.price-card__price {
+  margin: auto;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 67px;
+  color: #fff;
+}
+.price-card__description {
+  margin: 40px 26px 40px 26px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.option-list__list {
+  margin: 0;
+  padding: 0px;
+}
+.option-list__item {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  list-style: none;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+.option-list__item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.option-list__checkmark {
+  margin: 0 22px;
+}
+
+.price-card__footer {
+  display: flex;
+}
+
+.btn {
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  height: 40px;
+  width: 154px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 17px;
+  background-color: #5bb189;
+}
+
+.green {
+  background-color: #5bb189;
+}
+
+.blue {
+  background-color: #3a6ba5;
+}
+
+.orange {
+  background-color: #ec632a;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  background-color: #141b1c;
+}
+
+.price-card__content {
+  width: 380px;
+  background-color: #334247;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

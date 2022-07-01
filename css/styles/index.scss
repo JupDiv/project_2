@@ -1,0 +1,25 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'main.scss';
+@import 'footer.scss';
+@import 'common.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  background-color: $background-color;
+}
+
+.price-card {
+  &__content {
+    width: 380px;
+    background-color: $color-block;
+    display: flex;
+    flex-direction: column;
+  }
+}
