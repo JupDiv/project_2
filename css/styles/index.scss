@@ -9,17 +9,28 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
+.page {
   display: flex;
-  justify-content: space-around;
+  width: 1440px;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
   background-color: $background-color;
 }
 
 .price-card {
   &__content {
     width: 380px;
+    height: 770px;
     background-color: $color-block;
     display: flex;
     flex-direction: column;
+    margin-right: 18px;
+  }
+}
+
+.price-card:last-child {
+  &__content {
+    margin-right: 0px;
   }
 }
