@@ -25,12 +25,9 @@
     background-color: $color-block;
     display: flex;
     flex-direction: column;
-    margin-right: 18px;
+    margin-left: 18px;
   }
 }
-
-.price-card:last-child {
-  &__content {
-    margin-right: 0px;
-  }
+.price-card:first-child .price-card__content {
+  margin: 0;
 }
