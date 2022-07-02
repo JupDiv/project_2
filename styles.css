@@ -145,7 +145,7 @@ body {
   margin-left: 18px;
 }
 
-.price-card:first-child .price-card__content {
+.price-card:first-child {
   margin: 0;
 }
 
