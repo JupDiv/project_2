@@ -131,7 +131,7 @@
   display: flex;
   width: 1400px;
   height: 100vh;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: #141b1c;
 }
@@ -142,6 +142,11 @@
   background-color: #334247;
   display: flex;
   flex-direction: column;
+  margin-left: 18px;
+}
+
+.price-card:first-child {
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
