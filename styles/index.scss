@@ -9,7 +9,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
+.page {
   display: flex;
   width: 1440px;
   height: 1000px;
@@ -19,12 +19,14 @@ body {
 }
 
 .price-card {
-  width: 380px;
-  height: 770px;
-  background-color: $color-block;
-  display: flex;
-  flex-direction: column;
-  margin-left: 18px;
+  &__content {
+    width: 380px;
+    height: 770px;
+    background-color: $color-block;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+  }
 }
 .price-card:first-child {
   margin: 0;
