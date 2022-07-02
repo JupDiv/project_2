@@ -3,30 +3,20 @@
     display: flex;
     flex-direction: column;
   }
-  &__price-block-green {
-    display: flex;
-    width: 100%;
-    height: 105px;
-    background-color: $light-green;
-  }
-  &__price-block-blue {
-    display: flex;
-    width: 100%;
-    height: 105px;
-    background-color: $light-blue;
-  }
-  &__price-block-orange {
-    display: flex;
-    width: 100%;
-    height: 105px;
-    background-color: $light-orange;
-  }
+
   &__price {
-    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__price-title {
     font-size: 55px;
     font-weight: 700;
     line-height: 67px;
     color: $white;
+    text-align: center;
   }
 
   &__description {
