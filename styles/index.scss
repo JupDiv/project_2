@@ -11,7 +11,7 @@
 
 body {
   display: flex;
-  width: 100vw;
+  width: 1400px;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -24,8 +24,8 @@ body {
   background-color: $color-block;
   display: flex;
   flex-direction: column;
-  margin-left: 18px;
+  margin-right: 18px;
 }
-.price-card:first-child .price-card__content {
+.price-card:last-child .price-card__content {
   margin: 0;
 }
