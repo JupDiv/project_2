@@ -130,6 +130,7 @@
 body {
   display: flex;
   width: 1440px;
+  height: 1000px;
   justify-content: center;
   align-items: center;
   background-color: #141b1c;
