@@ -8,11 +8,13 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
 body {
   display: flex;
-  width: 1400px;
-  height: 100vh;
+}
+.page {
+  display: flex;
+  // margin: auto;
+
   justify-content: center;
   align-items: center;
   background-color: $background-color;
