@@ -127,7 +127,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.page {
+body {
   display: flex;
   width: 1440px;
   height: 1000px;
@@ -136,7 +136,7 @@
   background-color: #141b1c;
 }
 
-.price-card__content {
+.price-card {
   width: 380px;
   height: 770px;
   background-color: #334247;
