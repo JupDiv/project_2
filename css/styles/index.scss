@@ -19,14 +19,12 @@ body {
 }
 
 .price-card {
-  &__content {
-    width: 380px;
-    height: 770px;
-    background-color: $color-block;
-    display: flex;
-    flex-direction: column;
-    margin-left: 18px;
-  }
+  width: 380px;
+  height: 770px;
+  background-color: $color-block;
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
 }
 .price-card:first-child .price-card__content {
   margin: 0;
