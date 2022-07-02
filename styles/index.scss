@@ -20,8 +20,8 @@ body {
   height: 770px;
   background-color: $color-block;
   margin-right: 18px;
+}
 
-  &__:last-child {
-    margin-right: 0px;
-  }
+.price-card:last-child {
+  margin-right: 0px;
 }
