@@ -145,4 +145,8 @@ body {
   margin-left: 18px;
 }
 
+.price-card:first-child {
+  margin-left: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
