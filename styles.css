@@ -131,18 +131,16 @@ body {
   display: flex;
   justify-content: center;
   background-color: #141b1c;
+  padding: 64px 0;
 }
 
 .price-card {
   width: 380px;
   height: 770px;
   background-color: #334247;
-  display: flex;
-  flex-direction: column;
   margin-right: 18px;
 }
-
-.price-card:last-child {
+.price-card__:last-child {
   margin-right: 0px;
 }
 

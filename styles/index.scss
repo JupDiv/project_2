@@ -12,16 +12,16 @@ body {
   display: flex;
   justify-content: center;
   background-color: $background-color;
+  padding: 64px 0;
 }
 
 .price-card {
   width: 380px;
   height: 770px;
   background-color: $color-block;
-  display: flex;
-  flex-direction: column;
   margin-right: 18px;
-}
-.price-card:last-child {
-  margin-right: 0px;
+
+  &__:last-child {
+    margin-right: 0px;
+  }
 }
