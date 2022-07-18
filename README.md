@@ -1,5 +1,7 @@
 # project_2
 
+<h1><a href="https://github.com/JupDiv/project_2">Site</a></h1>
+
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
 The tech stack is:
